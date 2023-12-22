@@ -56,6 +56,7 @@ function App() {
     >
       <h1 style={{ textAlign: "center" }}>React Calculator</h1>
       <input
+        type="text"
         value={expression}
         style={{
           width: "20rem",
